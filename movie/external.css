@@ -3,6 +3,7 @@ h1 {
 	color:  #ff1044;
 	text-align: left;
 	font-size: 55px;
+	text-decoration:none;
 }
 ul {
 	list-style-type: none;
@@ -26,7 +27,7 @@ li a:hover{
 body{
 	font-family:Arial,Helvetica,sans-serif;
 	background-image: url(http://clipartix.com/wp-content/uploads/2017/01/Movie-camera-film-camera-clip-art.png);
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-size: cover;
 	width: 1340px;
