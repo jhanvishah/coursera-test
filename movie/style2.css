@@ -1,0 +1,69 @@
+body{
+	background-image: url(http://st.depositphotos.com/1008191/2392/i/950/depositphotos_23929343-stock-photo-pink-background-design-pastel-color.jpg);
+	height: 500px;
+	background-repeat: repeat;
+	background-size: cover;
+	font-family: Arial;
+	color: #571363;
+}
+h1{
+	font-family: Arial;
+	font-size:55px;
+	font-weight:700;
+	color: #571363;
+}
+th, td{
+	padding:8px;
+	text-align: left;
+}
+table{
+	border: 5px;
+	border-color: #2c44ca;
+}
+th,tr{
+	background-color: #f3e990;
+	color: #571363;
+}
+h2{
+	text-decoration: underline;
+}
+#box{
+	background-color: #f3e990;
+	padding: 10px;
+	border:1px solid #2c44ca;
+	width: 1300px;
+	height:75px;
+	margin-top: 50px;
+	overflow: auto;
+	color: #571363;
+}
+#box1{
+	background-color: #f3e990;
+	padding: 10px;
+	border:1px solid #2c44ca;
+	width: 1300px;
+	height:260px;
+	margin-top: 50px;
+	overflow: auto;
+	color: #571363;
+}
+#box3{
+	background-color: #f3e990;
+	padding: 10px;
+	border:1px solid #2c44ca;
+	width: 1300px;
+	height:60px;
+	margin-top: 50px;
+	overflow: auto;
+	color: #571363;
+}
+#box4{
+	background-color: #f3e990;
+	padding: 10px;
+	border:1px solid #2c44ca;
+	width: 1300px;
+	height:60px;
+	margin-top: 50px;
+	overflow: auto;
+	color: #571363;
+}

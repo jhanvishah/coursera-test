@@ -1,0 +1,29 @@
+body{
+	background-image: url(https://posterspy.com/wp-content/uploads/2017/01/LiveByNight-1.png);
+	width:1300px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*{
+	color: white;
+	font-weight:400;
+	font-family: Arial;
+}
+body{
+	background-color: rgba(0,0,0,1);
+}
+h1{
+	font-family: Arial;
+	font-size:55px;
+	font-weight:700;
+	text-align: center;
+}
+th, td{
+	padding:8px;
+	text-align: left;
+}
+table{
+	border: 1px;
+	border-color: white;
+}

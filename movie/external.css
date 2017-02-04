@@ -1,0 +1,73 @@
+h1 {
+	font-family: Arial,Helvetica,sans-serif;
+	color:  #ff1044;
+	text-align: left;
+	font-size: 55px;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: black;
+}
+li a{
+	float: left;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	font-family: Arial,Helvetica,sans-serif;
+}
+li a:hover{
+	background-color: white;
+	color: black;
+}
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	background-image: url(http://clipartix.com/wp-content/uploads/2017/01/Movie-camera-film-camera-clip-art.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 1340px;
+	height: 768px;
+}
+.name{
+	font-weight:300;
+	font-size: 20px;
+	padding: 10px;
+	padding-left:0px;
+	text-decoration: none;
+}
+div a{
+	text-decoration: none;
+	color: black;
+}
+div a:hover{
+	color: red;
+}
+h2,section{
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: left;
+	font-size: 30px;
+	font-weight: 300;
+}
+#external{
+	font-weight: 300;
+}
+th, td{
+	padding:8px;
+	text-align: left;
+}
+tr:nth-child(even){
+	background-color: orange;
+}
+a:hover{
+	color: red;
+}
+div{
+	font-weight: 700; 
+}
+p{
+	font-weight: 400;
+}
