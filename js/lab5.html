@@ -8,30 +8,41 @@
 <h2>Jhanvi Shah A044</h2>
 
 <script type="text/javascript">
-	var array1=	['5','2','9','6'];
-	var array2= ['6','1','3','5'];
-	
-		console.log(array1);
-        console.log(array2);
+	var array1 = ['31','41','42'];
+	var array2 = ['1','4','10','90','50'];
+	console.log(array1);
+	console.log(array2);
+function arr_diff (a1, a2) {
 
-        function large_elem(arr1,arr2)
-        {
-                array3 = array1.filter(function(obj) 
-                	{ 
-                		return array2.indexOf(obj) == -1; });
-                var max = -2000;
-                for (var i = array3.length - 1; i >= 0; i--) {
-                        if(array3[i] > max)
-                        {
-                                max = array3[i];
-                        }
-                }
+    var a = [], diff = [];
 
+    for (var i = 0; i < a1.length; i++) {
+        a[a1[i]] = true;
+    }
 
-                console.log("max value is : " + max);
+    for (var i = 0; i < a2.length; i++) {
+        if (a[a2[i]]) {
+            delete a[a2[i]];
+        } else {
+            a[a2[i]] = true;
         }
+    }
 
-        large_elem(array1,array2);
+    for (var k in a) {
+        diff.push(k);
+    }
+
+    return diff;
+};
+
+
+array3 = arr_diff(array1,array2);
+var max = array3.reduce(function(a, b) {
+    return Math.max(a, b);
+});
+
+console.log(max);
+
 </script>
 </body>
 </html>
