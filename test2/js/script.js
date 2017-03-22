@@ -23,9 +23,25 @@ document.addEventListener("DOMContentLoaded",
                 document.getElementById("false").checked= false;
               }
 
-              if (temp=== res.name1) {
-                var temp1 = document.querySelector("#start").textContent;
-                var temp2 = res.question1;
+              if (temp1=== res.name1) {
+                var temp = document.querySelector("#start").textContent;
+                var temp = res.question1;
+                  if (temp2 === answer1) {
+                    temp= "You are correct!";
+                  }
+                  else {
+                    temp= " You are incorrect!";
+                  }
+              }
+              else if (temp1=== res.name1) {
+                var temp = document.querySelector("#start").textContent;
+                var temp = res.question2;
+                  if (temp2 === answer2) {
+                    temp= "You are correct!";
+                  }
+                  else {
+                    temp= " You are incorrect!";
+                  }
               }
               else {
                 var temp1 = "you are not registered";
