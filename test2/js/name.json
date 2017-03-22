@@ -3,4 +3,6 @@
   "name2":"josh",
   "question1": "What is your age?",
   "answer1":"20",
+  "question2": "Which city do you live in?",
+  "answer2":"mumbai"
 }
