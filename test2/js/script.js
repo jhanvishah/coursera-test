@@ -6,17 +6,12 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-        //function startTest(event){
-         // this.textContent ="Submit Answer";
-         // var name = document.getElementById("name").value;
-         // var message= 
-       // }
-
-
+      
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
+              this.textContent="Submit Answer"
               var temp =
    document.getElementById("name").value;
           console.log(temp); 
