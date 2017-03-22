@@ -6,16 +6,16 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-        function startTest(event){
-          this.textContent ="Submit Answer";
-          var name = document.getElementById("name").value;
-          var message= 
-        }
+        //function startTest(event){
+         // this.textContent ="Submit Answer";
+         // var name = document.getElementById("name").value;
+         // var message= 
+       // }
 
 
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("name.json", 
+          .sendGetRequest("data/name.json", 
             function (res) {
               var temp =
    document.getElementById("name").value;
@@ -28,9 +28,6 @@ document.addEventListener("DOMContentLoaded",
                 document.getElementById("false").checked= false;
               }
 
-
-
-
               if (temp=== res.name1) {
                 var temp1 = document.querySelector("#start").textContent;
                 var temp2 = res.question1;
@@ -39,9 +36,6 @@ document.addEventListener("DOMContentLoaded",
                 var temp1 = "you are not registered";
               }
 
-            
-
-              
             });
       });
   }
